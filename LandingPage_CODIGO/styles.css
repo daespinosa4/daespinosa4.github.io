@@ -5,15 +5,15 @@ body, html {
 }
 
 body {
-    background: linear-gradient(rgba(43, 64, 150, 0.8), rgba(23, 150, 133, 0.7)),url("img/fondo.jpg");
+    background: linear-gradient(rgba(151, 23, 23, 0.8), rgba(31, 30, 30, 0.7)),url("img/fondo1.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
 }
 
 .logo {
-    height: 40px;
-    margin-top: 20px;
+    width: 60px;
+    margin-top: 5px;
 }
 
 .text-description {
@@ -27,7 +27,7 @@ body {
 }
 
 a .fab {
-    color: rgb(186, 235, 231);
+    color: rgb(151, 80, 80);
     font-size: 25px;
     /* margin: 0 10px; */
 }
