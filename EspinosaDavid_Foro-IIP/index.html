@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foro</title>
+    
+</head>
+<style>
+    .contenedor{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <h1>XMLHttpRequest Object</h1>
+    <div class="contenedor">
+        <p id="demo">El texto cargado se mostrará aquí.</p>
+
+        <button type="button" onclick="loadDoc()">Cambiar contenido</button>
+    </div>
+    <script>
+    function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("demo").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "ejemplo.txt", true);
+    xhttp.send();
+    }
+    </script>
+</body>
+</html>
+

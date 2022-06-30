@@ -1,0 +1,5 @@
+    <h1 style="color: red; text-align: center;">Aplicación de Tecnologías Web</h1> 
+    <p> <b>Nombre: </b> David Andrés Espinosa Rodríguez </p>
+    <p> <b>NRC: </b> 8496 </p>
+    <p> <b>NRC: </b> 30/06/2022 </p>
+    
