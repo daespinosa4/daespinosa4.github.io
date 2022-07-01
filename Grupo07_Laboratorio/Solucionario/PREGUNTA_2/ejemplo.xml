@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steam>
+
+  <juego categoria="shooter">
+    <nombre lang="es">VALORANT</nombre>
+    <empresa>Riot</empresa>
+    <year>2018</year>
+    <precio>Gratis</precio>
+  </juego>
+
+  <juego categoria="multijugador">
+    <nombre lang="es">League of Legends</nombre>
+    <empresa>Riot</empresa>
+    <year>2009</year>
+    <precio>gratis</precio>
+  </juego>
+
+</steam>

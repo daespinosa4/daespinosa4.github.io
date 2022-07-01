@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>LABORATORIO</title>
+		<style type="text/css">
+			#background{position:fixed; width:99%; height:130%;}
+			#fixed {position:absolute; top: 0px; left: 0px;}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img id="background" src="../../Imagenes/fondo.jpg"/> 
+		</div>
+		<div id="fixed">
+			</br></br></br>
+			<div style="padding-left:510px;">
+				<img src="../../Imagenes/selloespe.jpg" alt="ESPE" height="100" >
+			</div>
+			<div style="text-align: center;">
+				<h2>
+					<p style="text-align: center" style="color:#165014" ;>EJERCICIO 1</p>
+					
+				</h2>
+				<h3>
+					<p  style="color:#165014" ;>1. Analizar una cadena de texto en un objeto DOM XML y extraer esa
+						Información con JavaScript</p>
+				</h3>
+			</div>
+			
+			
+			<div style=" display: flex; flex-direction: row; justify-content: center;">
+				<div style="display: flex; justify-content: center; flex-direction: column; align-items: center; width: 50%;">
+					<h2><p> Código</p></h2>
+					<img src="EJERCICIO1.png" width="80%" alt="">
+				</div>
+				<div style="display: flex; justify-content: center; flex-direction: column; align-items: center; width: 45%;">
+					<h2><p style="text-align: center"> Ejecución</p></h2>
+					<p id="demo"></p>
+	
+				<button style="padding: 4px 2px; background-color: rgb(224, 163, 122) ; color:black;" onclick="cargarXML()">Cargar XML</button>
+	
+			</div>
+
+            <script>
+            var parser, xmlDoc;
+            var text = "<supermercado><producto>" +
+            "<nombre>Detergente</nombre>" +
+            "<marca>Deja</marca>" +
+            "<codigo>10002323</codigo>" +
+            "</producto></supermercado>";
+              function cargarXML(){
+                parser = new DOMParser();
+            xmlDoc = parser.parseFromString(text,"text/xml");
+
+            document.getElementById("demo").innerHTML =
+            "Tipo de Producto : "+xmlDoc.getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "<br>Marca del Producto: " +
+            xmlDoc.getElementsByTagName("marca")[0].childNodes[0].nodeValue;
+              }
+            
+            </script>
+			</div>
+			
+				<div style="padding-left:250px; ">
+
+				<br><br><a href="../../index.html" style="font-size: 20px;">Regresar</a><br> <br>
+				</div>
+			</div>						
+		</div> 		
+	</body>
+</html>

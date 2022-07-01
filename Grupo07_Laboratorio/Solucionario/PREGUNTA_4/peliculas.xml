@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+
+  <PELICULA >
+    <nombre lang="es">TED</nombre>
+    <genero>Comedia</genero>
+    <year>2018</year>
+    </PELICULA>
+
+  <PELICULA >
+    <nombre lang="es">Spiderman</nombre>
+    <genero>Acción</genero>
+    <year>2022</year>
+    
+  </PELICULA>
+
+  <PELICULA >
+    <nombre lang="es">A dos metros de ti</nombre>
+    <genero>Romance</genero>
+    <year>2019</year>
+    
+  </PELICULA>
+
+  <PELICULA >
+    <nombre lang="es">Top Gun 2</nombre>
+    <genero>Accion/Drama</genero>
+    <year>2022</year>
+    
+  </PELICULA>
+
+  <PELICULA>
+    <nombre lang="es">El aro</nombre>
+    <genero>Terror</genero>
+    <year>2010</year>
+    
+  </PELICULA>
+
+
+</catalogo>
